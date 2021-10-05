@@ -9,6 +9,6 @@ resource "aws_instance" "manmohan" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "terraform"
+    Name = "var.instance_name"
   }
 }
