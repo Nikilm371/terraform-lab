@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "zelar"
+    organization = "manmohan"
 
     workspaces {
       name = "sample"
