@@ -12,7 +12,7 @@ provider "google" {
   credentials = file("C:/Users/HP/Downloads/decoded-carport-328216-73faf8031a43.json")
   project = "decoded-carport-328216"
   region  = "us-central1"
-  zone    = "us-central1-c"
+  zone    = "us-central1-a"
 }
 resource "google_compute_instance" "vm_instance" {
   name         = "terraform-instance"
