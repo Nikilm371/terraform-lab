@@ -1,10 +1,10 @@
 terraform {
    backend "s3" {
-     bucket = "zs-manmohan"
+     bucket = "zs-mmh"
      key    = "terraform.tfstate"
      region = "us-east-1"
      profile = "default"
-     shared_credentials_file = "C:/Users/.aws/credentials"
+     shared_credentials_file = "‪C:/Users/.aws/credentials"
    }
 
     required_providers {
@@ -17,17 +17,21 @@ terraform {
     required_version = ">= 0.14.9"
   }
   
- provider "aws" {
-  profile = "default"
+provider "aws" {
+ profile = "default"
   region  = var.region
-  shared_credentials_file = "C:/Users/.aws/credentials"
+  shared_credentials_file = "‪C:/Users/.aws/credentials"
 }
 
-resource "aws_s3_bucket" "b" {
-  bucket = "zs-manmohan"
+resource "aws_s3_bucket" "my-bucket" {
+  bucket = "zs-mmh"
   acl    = "private"
 
   tags = {
-    Name        = "zs-manmohan"
+    Name        = "zs-mmh"
   }
 }
+
+
+
+
