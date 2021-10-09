@@ -7,5 +7,5 @@ variable "zone" {
 }
 variable "project" {
   default = "zs-manmohan"
-  project = "zs-manmohan"
+  project = "decoded-carport-328216"
 }
