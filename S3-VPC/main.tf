@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "mmh123"
+    bucket = "zs-mmh"
     key    = "s3-vpc"
-    region = "us-east-2"
+    region = "us-east-1"
   }
 }
 
