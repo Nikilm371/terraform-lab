@@ -14,10 +14,10 @@ resource "aws_instance" "mmh" {
 }
 output "instance_id" {
   description = "ID of the EC2 instance"
-  value       = aws_instance.manmohan.id
+  value       = aws_instance.mmh.id
 }
 
 output "instance_public_ip" {
   description = "Public IP address of the EC2 instance"
-  value       = aws_instance.manmohan.public_ip
+  value       = aws_instance.mmh.public_ip
 }
