@@ -6,7 +6,7 @@ terraform {
       name = "vpc"
     }
   }
-  provider "aws" {
+  {
   aws_access_key = AKIARSTSBWMIV225JBW2
   aws_secret_key = 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
 }
