@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "mmh"
+    organization = "naresh12345"
 
     workspaces {
       name = "vpc"
